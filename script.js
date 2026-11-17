@@ -21,16 +21,15 @@ const snippets = {
     ['', '  })'], ['', '\n}']
   ],
   work: [
-    ['com', '// produtos pensados de ponta a ponta'],
-    ['key', 'const'], ['var', ' stayflow'], ['', ' = '], ['key', 'new'], ['fn', ' Product'], ['', '({'],
-    ['', '  problem: '], ['str', "'operações descentralizadas'"], ['', ','],
-    ['', '  solution: ['],
-    ['', '    '], ['str', "'dashboard'"], ['', ', '], ['str', "'automation'"], ['', ','],
-    ['', '    '], ['str', "'reports'"], ['', ', '], ['str', "'customer-care'"],
+    ['com', '// integrações que simplificam operações'],
+    ['key', 'const'], ['var', ' workflow'], ['', ' = '], ['key', 'new'], ['fn', ' Workflow'], ['', '({'],
+    ['', '  trigger: '], ['str', "'webhook'"], ['', ','],
+    ['', '  steps: ['],
+    ['', '    '], ['str', "'validate'"], ['', ', '], ['str', "'integrate'"], ['', ','],
+    ['', '    '], ['str', "'automate'"],
     ['', '  ],'],
-    ['', '  status: '], ['str', "'shipped'"],
     ['', '})'],
-    ['', '\n'], ['fn', 'stayflow'], ['', '.'], ['fn', 'scale'], ['', '()']
+    ['', '\n'], ['fn', 'workflow'], ['', '.'], ['fn', 'run'], ['', '()']
   ],
   stack: [
     ['com', '// escolha ferramentas, não modismos'],
